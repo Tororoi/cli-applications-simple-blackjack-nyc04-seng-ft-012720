@@ -25,7 +25,7 @@ end
 
 def end_game(card_total)
   # code #end_game here
-  puts "Sorry, you busted with a total of #{card_total}"
+  puts "Sorry, you busted with a total of #{card_total}. Thanks for playing!"
 end
 
 def initial_round
