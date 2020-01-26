@@ -10,7 +10,7 @@ end
 
 def display_card_total(card_total)
   # code #display_card_total here
-  puts "Your cards add up to #{card_total}"
+  puts "Your card total is #{card_total}"
 end
 
 def prompt_user
@@ -23,8 +23,9 @@ def get_user_input
   gets.chomp.strip
 end
 
-def end_game
+def end_game(card_total)
   # code #end_game here
+  puts "Sorry, you busted with a total of #{card_total}"
 end
 
 def initial_round
